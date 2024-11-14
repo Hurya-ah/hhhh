@@ -1,3 +1,5 @@
+
+
 const About = () => {
     return (
       <section className="p-12 min-h-screen bg-gradient-to-r from-purple-600 via-blue-500 to-pink-500 text-white flex flex-col justify-center items-center">

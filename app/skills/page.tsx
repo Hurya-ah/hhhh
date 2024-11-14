@@ -1,3 +1,5 @@
+
+
 const Skills = () => {
     return (
       <section className="min-h-screen bg-gradient-to-r from-blue-500 via-purple-600 to-pink-500 text-white flex flex-col justify-center">

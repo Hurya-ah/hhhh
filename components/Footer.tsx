@@ -1,3 +1,5 @@
+
+
 const Footer = () => (
     <footer className="bg-primary text-white p-6 text-center">
       <div className="flex justify-center space-x-6 mb-4">
