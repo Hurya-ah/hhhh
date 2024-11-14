@@ -3,6 +3,7 @@
 'use client'; // Add this at the top of the file to mark it as a client component
 
 import { useEffect, useState } from "react";
+import Image from 'next/image';
 
 const Home = () => {
   const [fadeIn, setFadeIn] = useState(false);
@@ -52,10 +53,13 @@ const Home = () => {
         </div>
 
         <div className="md:w-1/2">
-          <img
+          <Image
             src="/images/profile.jpg"
             alt="Hurya's Profile"
             className="rounded-full w-80 h-80 md:w-96 md:h-96 mx-auto md:mx-0 shadow-2xl hover:shadow-xl transition-shadow duration-500 transform hover:scale-110"
+            width={384} // Adjust dimensions based on your design
+            height={384} // Adjust dimensions based on your design
+            priority={true} // Loads the image faster as a priority image
           />
         </div>
       </div>
